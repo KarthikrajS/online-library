@@ -1,0 +1,51 @@
+<!--<nav class="navbar navbar-default navbar-fixed-top">-->
+<!--    <div class = "container">-->
+<!--        <div class="navbar-header page-scroll">-->
+<!---->
+<!--            <!-- Home -->-->
+<!--            <a class="navbar-brand page-scroll" href="--><?php //echo Constants::DEFAULT_DIRECTORY?><!--">Light Up</a>-->
+<!--        </div>-->
+<!--        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">-->
+<!--            <ul class="nav navbar-nav navbar-right">-->
+<!--                <li class="hidden">-->
+<!--                    <a href="#page-top"></a>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <!-- Library -->-->
+<!--                    <a class="page-scroll" id ='library' href='--><?php //echo Constants::LIBRARY_PAGE?><!--'>Library</a>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <!-- About the company -->-->
+<!--                    <a class="page-scroll" href="--><?php //echo Constants::ABOUT_PAGE?><!--">About</a>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <!-- Team -->-->
+<!--                    <a class="page-scroll" href="--><?php //echo Cons       tants::TEAM_PAGE?><!--">Team</a>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <!-- Conatct -->-->
+<!--                    <a class="page-scroll" href="--><?php //echo Constants::CONTACT_PAGE?><!--">Contact</a>-->
+<!--                </li>-->
+<!--                --><?php
+//
+//                    if(!is_null($user)){
+//                        $displayHTML ='<a class="page-scroll poplauncher curvedBox" id="loginSpan" href="/login">';
+//                        echo $displayHTML.$name.'</a>';
+//                    }
+//                    else {
+//                        echo '<a class="page-scroll poplauncher curvedBox" id="loginSpan" href="/login">Login</a>';
+//                    }
+//                ?>
+<!--                <li>-->
+<!---->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <a id="logout">Logout</a>
+<!--                </li>-->
+<!--            </ul>-->
+<!--        </div>-->
+<!--        <!-- /.navbar-collapse -->
+<!--    </div>-->
+<!--    <!-- /.container-fluid -->
+<!--</nav>-->
+</body>

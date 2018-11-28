@@ -1,0 +1,26 @@
+Options -Indexes
+RewriteEngine on
+
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^(.+)$ index.php?url=$1 [PT,QSA,L]
+
+## EXPIRES CACHING ##
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpg "access plus 2 seconds"
+ExpiresByType image/jpeg "access plus 2 seconds"
+ExpiresByType image/gif "access plus 2 seconds"
+ExpiresByType image/png "access plus 2 seconds"
+ExpiresByType text/css "access plus 2 seconds"
+ExpiresByType application/pdf "access plus 2 seconds"
+ExpiresByType application/javascript "access plus 2 seconds"
+ExpiresByType application/x-javascript "access plus 2 seconds"
+ExpiresByType application/x-shockwave-flash "access plus 2 seconds"
+ExpiresByType image/x-icon "access plus 2 seconds"
+ExpiresDefault "access plus 2 seconds"
+</IfModule>
+## EXPIRES CACHING ##

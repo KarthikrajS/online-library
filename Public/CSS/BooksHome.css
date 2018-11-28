@@ -1,0 +1,9 @@
+#Content{background-color:#F5F0F6; }
+.bookHomeCardItem{position: relative;width:100%; background-color:#FFF; border-bottom-left-radius: 0;border-bottom-right-radius: 0;}
+.bookHomeCardItem:hover{cursor: hand}
+
+.greydout {
+    -webkit-opacity: 0.25;
+    -moz-opacity: 0.25;
+    opacity: 0.25;
+}

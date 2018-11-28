@@ -1,0 +1,109 @@
+body{margin:0; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; cursor:default; color: #474747; -webkit-font-smoothing: antialiased;}
+
+#Header{background-color: #FFF; vertical-align: middle;height: 60px; box-sizing: border-box; position: fixed;box-shadow:0 1.5px 1px #828282;z-index: 1000; top: 0; width: 100%}
+
+#Header .left{float:left; vertical-align: middle; margin-left:5% }
+#Header .right{float:right; text-align: right;vertical-align: middle; height: 40px;     margin-right: 5%;
+    line-height: 50px; margin-top: 0.5%}
+#Header .center{text-align: left; vertical-align: middle}
+#Logo .left{display:inline}
+#headerRight > span {margin: 0 2px;}
+#headerRight > span:last-child{margin-right: 40% !important;
+    float: right;}
+
+#userDropdown{text-align: -webkit-center;}
+    #Content{padding: 75px 20%;}
+
+a { text-decoration: none; }
+#Options a,#Options a:link, #Options a:active, #Options a:visited{color:#626566; font-weight: bold; cursor: pointer; transition: all 0.3s ease; padding: 0.5em; border-radius: 4px;}
+#Options a:hover{background-color:#EDEDED; transition: all 0.3s ease;}
+
+#loginSpan, #loginSpanMobile{background-color:#3B5998; color: #FFF; padding:0.5em; cursor: pointer;transition: color 0.3s;font-weight: bold;}
+#loginSpan:hover, #loginSpanMobile:hover{opacity: 0.7; filter:alpha(opacity=70); transition: color 0.3s}
+#loginSpan h4, #loginSpanMobile p{font-weight: bold; display: inherit;}
+
+div#overlay {position: fixed; top: 0;left: 0;width: 100%;height: 100%;background: #3B4547;opacity: 0.9;filter: alpha(opacity=90);z-index:2001;}
+div#ipopContainer{position: fixed; top: 0;left: 0;width: 100%;height: 100%;z-index:2002;overflow-x: hidden;}
+/*Position absolute for ipop allows it to scroll*/
+.ipop{position:absolute;max-height: 700px;box-sizing: border-box;opacity: 0;filter: alpha(opacity=0); }
+/*.ipop{top: 50%; left: 50%; transform: translate(-50%, -50%);margin-top: 10%; margin-bottom: 20%;}*/
+div.popHeader{ text-align: center;font-size: 18px; font-weight: 600; line-height: 25px; }
+.curvedBox{border-radius:4px;}
+.PopVisible {display: inline;}
+.PopHide{display: none;}
+
+.VisibilityOn {display: inline;}
+.VisibilityOff{display: none;}
+
+/*Box Shadows*/
+.boxShadow{box-shadow: 0 0 4px #afafaf;margin-bottom: 12px;}
+.feedShadow{box-shadow: 0 0 2px #AFAFAF}
+.deepShadow{box-shadow: 0 0 15px #000}
+
+/*Lines - Not for text box*/
+.border{border:1px solid #E2E2E2}
+.borderBottom{border-bottom: 1px solid #E2E2E2}
+.borderLeft{border-left: 1px solid #E2E2E2}
+.borderTop{border-top: 1px solid #E2E2E2}
+.borderRight{border-right: 1px solid #E2E2E2}
+
+/*Border Radius*/
+.straightBox{border-radius:2px;}
+.curvedBox{border-radius:4px;}
+
+.dropdown {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown :hover {background-color: #f1f1f1}
+#userboard {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.show {display:block;}
+#searchIcon:hover{opacity: 0.7; filter:alpha(opacity=70)}
+#searchBarMobile{margin: 5% 0;width: 40%; border-color: #474747}
+#searchMsg{right: 5%; top:12%;}
+#searchIcon{content: url('../Images/Search.png'); display:inline;cursor:pointer;width: 19px; height: 19px;float: right;    margin-top: 0.35em; position: relative;border:2px solid #474747;}
+
+.sb-search {
+    position: relative;
+    margin-top: 10px;
+    width: 0%;
+    min-width: 60px;
+    height: 60px;
+    float: right;
+    overflow: hidden;
+
+    -webkit-transition: width 0.3s;
+    -moz-transition: width 0.3s;
+    transition: width 0.3s;
+
+    -webkit-backface-visibility: hidden;
+}
+.sb-search-submit{content: url('../Images/Search.png'); display:inline;cursor:pointer;width: 20px; height: 20px;float: right;    margin: -8% 10% 0 0 ; position: relative; }
+.sb-search-input {
+    outline: none;
+    background: #fff;
+    width: 100%;
+    height: 10%;
+    margin: 5% 0 0 0 ;
+    z-index: 10;
+    padding:15px 60px 15px 15px;
+    font-family: inherit;
+    font-size: 20px;
+    color: #2c3e50;
+}
+
+input[type="search"].sb-search-input {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+}
+
+#LoginPageContent{background-color: white}

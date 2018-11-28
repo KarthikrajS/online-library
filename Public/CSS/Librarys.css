@@ -1,0 +1,18 @@
+#Content{background-color:#F5F0F6;}
+
+.bookHomeCardItem{position: relative;width:100%; background-color:#FFF; border-bottom-left-radius: 0;border-bottom-right-radius: 0;}
+.bookHomeCardItem:hover{cursor: hand}
+
+.filter{background-color: #FFF; padding:10px; box-sizing: border-box;      margin-top: 15%}
+.selected{
+    border: 2px solid #3B5998;
+}
+.notSelected{
+    border-bottom: 1px solid #E2E2E2;
+}
+#filterSection{    float: left;
+    margin-left: -22%;
+}
+#filterSection:hover{
+    cursor: pointer;
+}
